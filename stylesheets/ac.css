@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-family: "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	background: #D3D3D3;
+}
+#page {
+	background: #fff;
+	width: 1030;
+	margin: 0 auto;
+	border-left: 1px solid #222;
+	border-right: 1px solid #222;
+}
+h1 {
+	margin-top: 20;
+	padding: 10 30 10 30;
+	color: #fff;
+	background: #222;
+	float: left;
+}
+#content {
+	width: 600;
+	padding: 30;
+	clear: both;
+}
+.section {
+	margin: 15 0 15 0;
+}
+.list-item {
+	margin-left: 10px;
+}
+#image-bar {
+	float: right;
+	height: 100%;
+}
+p {
+	width: 600;
+	font-size: 1.2em;
+}
+img.illustration {
+	position: absolute;
+	display: none;
+	border: 2px solid #D3D3D3;
+	width: 350px;
+}
+ul {
+	list-style: none;
+	margin-left: 10;
+	font-size: 1.2em;
+}
+li {
+	padding-top: 10;
+}
+li .info {
+	margin-left: 10;
+	display: block;
+	font-size: 0.9em;
+}
